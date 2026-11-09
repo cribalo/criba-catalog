@@ -1,0 +1,1013 @@
+{
+  "version": "2026-11-08",
+  "license": {
+    "spdx": "CC-BY-NC-4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "criba agent-ecosystem bot catalog, cribalo.com",
+    "commercial": "Commercial use requires a separate licence: contact@cribalo.com"
+  },
+  "count": 79,
+  "bots": [
+    {
+      "id": "glama",
+      "name": "Glama",
+      "category": "mcp-indexer",
+      "url": "https://glama.ai",
+      "protocols": [
+        "mcp"
+      ],
+      "clientNames": [
+        "glama"
+      ],
+      "seen": "initialize (declares tasks capability), tools/list"
+    },
+    {
+      "id": "histor",
+      "name": "histor (modelmarket.dev)",
+      "category": "mcp-indexer",
+      "url": "https://histor.modelmarket.dev",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^histor/",
+      "clientNames": [
+        "histor"
+      ],
+      "seen": "server/discover, tools/list; UA says read-only"
+    },
+    {
+      "id": "plug-directory",
+      "name": "plug.directory",
+      "category": "mcp-indexer",
+      "url": "https://plug.directory",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "plug\\.directory-prober",
+      "clientNames": [
+        "plug.directory-prober"
+      ],
+      "seen": "server/discover, tools/list"
+    },
+    {
+      "id": "mcpgw",
+      "name": "mcpgw indexer",
+      "category": "mcp-indexer",
+      "url": "https://github.com/chrisswanson/mcpgw",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^mcpgw-indexer/",
+      "seen": "server/discover, tools/list"
+    },
+    {
+      "id": "musedirectory",
+      "name": "musedirectory.ai",
+      "category": "mcp-indexer",
+      "url": "https://musedirectory.ai",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "musedirectory\\.ai-scout",
+      "clientNames": [
+        "musedirectory.ai-scout"
+      ],
+      "seen": "initialize, tools/list"
+    },
+    {
+      "id": "mcptry",
+      "name": "mcptry.com",
+      "category": "mcp-indexer",
+      "url": "https://mcptry.com",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "mcptry\\.com indexer",
+      "clientNames": [
+        "mcptry-health-check"
+      ],
+      "seen": "initialize, tools/list"
+    },
+    {
+      "id": "pluginboard",
+      "name": "Pluginboard",
+      "category": "mcp-indexer",
+      "url": "https://pluginboard.ai",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^PluginboardBot/",
+      "clientNames": [
+        "pluginboard-scanner"
+      ],
+      "seen": "initialize, tools/list; UA says it never calls tools"
+    },
+    {
+      "id": "agenttoolindex",
+      "name": "AgentToolIndex",
+      "category": "mcp-indexer",
+      "url": "https://agenttoolindex.com",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^AgentToolIndex/",
+      "clientNames": [
+        "agenttoolindex"
+      ],
+      "seen": "initialize, tools/list; UA says passive"
+    },
+    {
+      "id": "anlyon",
+      "name": "anlyon.dev",
+      "category": "mcp-indexer",
+      "url": "https://anlyon.dev",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^anlyon\\.dev-indexer/",
+      "clientNames": [
+        "anlyon.dev-indexer"
+      ],
+      "seen": "initialize, tools/list"
+    },
+    {
+      "id": "agent-tools-cloud",
+      "name": "agent-tools.cloud",
+      "category": "mcp-indexer",
+      "url": "https://agent-tools.cloud",
+      "protocols": [
+        "mcp",
+        "a2a"
+      ],
+      "ua": "agent-tools\\.cloud",
+      "clientNames": [
+        "agent-tools.cloud"
+      ],
+      "seen": "initialize, tools/list; also reads Agent Cards"
+    },
+    {
+      "id": "everymcp",
+      "name": "EveryMCP",
+      "category": "mcp-indexer",
+      "url": "https://everymcp.ai",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^EveryMCP-Probe/",
+      "clientNames": [
+        "every-mcp-probe"
+      ],
+      "seen": "server/discover, tools/list"
+    },
+    {
+      "id": "spiron",
+      "name": "Spiron",
+      "category": "mcp-indexer",
+      "url": "https://spiron.ai",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^spiron-mcp/",
+      "clientNames": [
+        "spiron"
+      ],
+      "seen": "server/discover, tools/list"
+    },
+    {
+      "id": "moonglade",
+      "name": "Moonglade",
+      "category": "mcp-indexer",
+      "url": "https://moonglade.sh",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^Moonglade/",
+      "clientNames": [
+        "moonglade-shadows"
+      ],
+      "seen": "server/discover, tools/list"
+    },
+    {
+      "id": "syndai",
+      "name": "Syndai catalog",
+      "category": "mcp-indexer",
+      "url": "https://syndai.ai",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^syndai-catalog-probe/",
+      "clientNames": [
+        "syndai"
+      ],
+      "seen": "server/discover"
+    },
+    {
+      "id": "electraindex",
+      "name": "ElectraIndex",
+      "category": "mcp-indexer",
+      "url": "https://electraindex.com",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^ElectraIndexBot/",
+      "clientNames": [
+        "electraindexbot"
+      ],
+      "seen": "initialize, tools/list (via Supabase pg_net)"
+    },
+    {
+      "id": "inite-atlas",
+      "name": "INITE Atlas",
+      "category": "mcp-indexer",
+      "url": "https://inite.ai",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^INITE-Atlas/",
+      "clientNames": [
+        "inite atlas"
+      ],
+      "seen": "initialize, tools/list"
+    },
+    {
+      "id": "invokerank",
+      "name": "InvokeRank",
+      "category": "mcp-indexer",
+      "url": "https://invokerank.com",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^InvokeRankBot/",
+      "clientNames": [
+        "invokerankbot"
+      ],
+      "seen": "server/discover, tools/list"
+    },
+    {
+      "id": "agentservicedirectory",
+      "name": "Agent Service Directory",
+      "category": "mcp-indexer",
+      "url": "https://agentservicedirectory.com",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^AgentServiceDirectoryMonitor/",
+      "clientNames": [
+        "agentservicedirectory.com"
+      ],
+      "seen": "initialize, tools/list"
+    },
+    {
+      "id": "talaria",
+      "name": "Talaria catalog",
+      "category": "mcp-indexer",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^Talaria$",
+      "clientNames": [
+        "talaria-catalog"
+      ],
+      "seen": "initialize only"
+    },
+    {
+      "id": "mcp-marketplace-enricher",
+      "name": "MCP Marketplace Enricher",
+      "category": "mcp-indexer",
+      "protocols": [
+        "mcp"
+      ],
+      "clientNames": [
+        "mcp-marketplace-enricher"
+      ],
+      "seen": "initialize, tools/list (Supabase Edge)"
+    },
+    {
+      "id": "mcp-ficha",
+      "name": "mcp-ficha",
+      "category": "mcp-indexer",
+      "url": "https://mcp-ficha.andriy.im",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^mcp-ficha-probe/",
+      "clientNames": [
+        "mcp-ficha-probe"
+      ],
+      "seen": "initialize, tools/list"
+    },
+    {
+      "id": "lookupd",
+      "name": "lookupd",
+      "category": "mcp-indexer",
+      "url": "https://lookupd.com",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^lookupd-probe/",
+      "clientNames": [
+        "lookupd-probe"
+      ],
+      "seen": "initialize, tools/list"
+    },
+    {
+      "id": "orbit-registry",
+      "name": "Orbit MCP Registry",
+      "category": "mcp-indexer",
+      "protocols": [
+        "mcp",
+        "web"
+      ],
+      "ua": "^Orbit-MCP-Registry",
+      "seen": "fetches icons / favicon"
+    },
+    {
+      "id": "protogrid",
+      "name": "protogrid",
+      "category": "mcp-indexer",
+      "url": "https://protogrid.dev",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^protogrid-probe/",
+      "clientNames": [
+        "protogrid-probe"
+      ],
+      "seen": "server/discover, tools/list"
+    },
+    {
+      "id": "codexguild",
+      "name": "CodexGuild catalog review",
+      "category": "mcp-indexer",
+      "protocols": [
+        "mcp"
+      ],
+      "clientNames": [
+        "codexguild-catalog-review"
+      ],
+      "seen": "server/discover, tools/list"
+    },
+    {
+      "id": "global-agent-census",
+      "name": "GlobalAgentCensus",
+      "category": "research",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^GlobalAgentCensus/",
+      "seen": "public metadata indexer"
+    },
+    {
+      "id": "verifymcp",
+      "name": "VerifyMCP",
+      "category": "mcp-verifier",
+      "url": "https://verifymcp.io",
+      "protocols": [
+        "mcp",
+        "web"
+      ],
+      "ua": "verifymcp",
+      "clientNames": [
+        "verifymcp-probe"
+      ],
+      "seen": "tools/list, then tools/call of a non-existent __verifymcp_auth_probe_*__ tool to test auth; fetches owners.json"
+    },
+    {
+      "id": "toolvet",
+      "name": "ToolVet",
+      "category": "mcp-verifier",
+      "url": "https://toolvet.app",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^ToolVetProbe/",
+      "clientNames": [
+        "toolvetprobe"
+      ],
+      "seen": "initialize, tools/list"
+    },
+    {
+      "id": "agenttested",
+      "name": "AgentTested",
+      "category": "mcp-verifier",
+      "url": "https://agenttested.dev",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^AgentTested-MCP-Check/",
+      "clientNames": [
+        "agenttested-mcp-check"
+      ],
+      "seen": "initialize, tools/list from several Cloudflare IPs"
+    },
+    {
+      "id": "proofbench",
+      "name": "ProofBench",
+      "category": "mcp-verifier",
+      "url": "https://proofbench.dev",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^ProofBench/",
+      "clientNames": [
+        "proofbench-probe"
+      ],
+      "seen": "registry health probe: initialize, tools/list"
+    },
+    {
+      "id": "aindex",
+      "name": "AgentIndex (aindex.com)",
+      "category": "mcp-verifier",
+      "url": "https://aindex.com",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^AgentIndexProbe/",
+      "clientNames": [
+        "agentindexprobe"
+      ],
+      "seen": "agent-friendliness check, read-only"
+    },
+    {
+      "id": "agentrank",
+      "name": "AgentRank",
+      "category": "mcp-verifier",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^AgentRankProbe/",
+      "clientNames": [
+        "agentrank-probe"
+      ],
+      "seen": "initialize, tools/list"
+    },
+    {
+      "id": "faceabot",
+      "name": "Faceabot reliability",
+      "category": "mcp-verifier",
+      "url": "https://faceabot.com",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^FaceabotProbe/",
+      "clientNames": [
+        "faceabotprobe"
+      ],
+      "seen": "initialize, tools/list; publishes an opt-out"
+    },
+    {
+      "id": "popnx",
+      "name": "PopNx MCP check",
+      "category": "mcp-verifier",
+      "url": "https://mcp.popnx.com",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^PopNx-MCP/",
+      "clientNames": [
+        "popnx-mcp-check"
+      ],
+      "seen": "initialize, tools/list"
+    },
+    {
+      "id": "alphaproxy",
+      "name": "AlphaProxy probe",
+      "category": "mcp-verifier",
+      "url": "https://alphaproxy.ai",
+      "protocols": [
+        "mcp",
+        "web"
+      ],
+      "ua": "^AlphaProxy-MCP",
+      "clientNames": [
+        "alphaproxy-probe"
+      ],
+      "seen": "initialize, tools/list; fetches logo"
+    },
+    {
+      "id": "squatchmcp",
+      "name": "SquatchMCP scanner",
+      "category": "mcp-verifier",
+      "url": "https://squatchmcp.com",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^SquatchMCP-Scanner/",
+      "clientNames": [
+        "squatch-mcp-scanner"
+      ],
+      "seen": "server/discover, tools/list, custom squatch/conformance-probe method"
+    },
+    {
+      "id": "mcpharbor",
+      "name": "MCP Harbor",
+      "category": "mcp-verifier",
+      "url": "https://ai.mcpharbor.dev",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "mcp-?harbor",
+      "clientNames": [
+        "mcp-harbor-probe"
+      ],
+      "seen": "initialize, tools/list, prompts/list"
+    },
+    {
+      "id": "mcpstatus",
+      "name": "McpStatus",
+      "category": "mcp-verifier",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^McpStatus/",
+      "clientNames": [
+        "mcp-status"
+      ],
+      "seen": "server/discover, tools/list"
+    },
+    {
+      "id": "mcp-server-io",
+      "name": "mcp-server.io healthcheck",
+      "category": "mcp-verifier",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^mcp-server\\.io-healthcheck/",
+      "clientNames": [
+        "mcp-server.io-healthcheck"
+      ],
+      "seen": "initialize (2025-03-26)"
+    },
+    {
+      "id": "hultra-link",
+      "name": "hultra-link",
+      "category": "mcp-verifier",
+      "url": "https://donnees.hultra.link",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^hultra-link/",
+      "clientNames": [
+        "hultra-link"
+      ],
+      "seen": "initialize with 2026-07-28"
+    },
+    {
+      "id": "securemyagent",
+      "name": "SecureMyAgent registry",
+      "category": "mcp-verifier",
+      "protocols": [
+        "mcp"
+      ],
+      "clientNames": [
+        "securemyagent-registry"
+      ],
+      "seen": "initialize, tools/list (node UA)"
+    },
+    {
+      "id": "canopii",
+      "name": "Canopii scanner",
+      "category": "mcp-verifier",
+      "protocols": [
+        "mcp"
+      ],
+      "clientNames": [
+        "canopii-scanner"
+      ],
+      "seen": "initialize (node UA)"
+    },
+    {
+      "id": "fastdrop",
+      "name": "fastdrop-verify",
+      "category": "mcp-verifier",
+      "protocols": [
+        "mcp"
+      ],
+      "clientNames": [
+        "fastdrop-verify"
+      ],
+      "seen": "initialize, tools/list (undici UA)"
+    },
+    {
+      "id": "exaforce-mcprep",
+      "name": "Exaforce MCP reputation",
+      "category": "mcp-verifier",
+      "protocols": [
+        "mcp",
+        "web"
+      ],
+      "ua": "^exaforce-mcprep/",
+      "seen": "MCP server reputation scanner; well-known paths"
+    },
+    {
+      "id": "stealthstack",
+      "name": "StealthStack link check",
+      "category": "mcp-verifier",
+      "url": "https://stealthstack.ai",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^StealthStackLinkCheck/",
+      "seen": "single link check"
+    },
+    {
+      "id": "koskamo",
+      "name": "Koskamo directory check",
+      "category": "mcp-verifier",
+      "url": "https://koskamo.com",
+      "protocols": [
+        "web"
+      ],
+      "ua": "^KoskamoDirectoryCheck/",
+      "seen": "web checks"
+    },
+    {
+      "id": "hermes-catalog-probe",
+      "name": "Hermes catalog probe",
+      "category": "mcp-verifier",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^Hermes-Agent/probe",
+      "clientNames": [
+        "catalog-probe"
+      ],
+      "seen": "initialize"
+    },
+    {
+      "id": "ps-mcp-tools-probe",
+      "name": "ps-mcp-tools-probe",
+      "category": "mcp-verifier",
+      "protocols": [
+        "mcp"
+      ],
+      "clientNames": [
+        "ps-mcp-tools-probe"
+      ],
+      "seen": "initialize, tools/list (python-httpx UA)"
+    },
+    {
+      "id": "allagents",
+      "name": "ALLAGENTS",
+      "category": "a2a-directory",
+      "url": "https://allagents.app",
+      "protocols": [
+        "a2a",
+        "web"
+      ],
+      "ua": "^allagents-",
+      "seen": "register/verify/liveness: card, tasks/get, GET /a2a, proof file"
+    },
+    {
+      "id": "a2a-registry",
+      "name": "A2A Registry",
+      "category": "a2a-directory",
+      "url": "https://www.a2a-registry.org",
+      "protocols": [
+        "a2a"
+      ],
+      "ua": "^A2A-Registry-Scanner/",
+      "seen": "reads the Agent Card"
+    },
+    {
+      "id": "duami",
+      "name": "duami directory",
+      "category": "a2a-directory",
+      "url": "https://duami.ai",
+      "protocols": [
+        "a2a"
+      ],
+      "ua": "^duami-directory/",
+      "seen": "reads the Agent Card"
+    },
+    {
+      "id": "brick-blue",
+      "name": "brick.blue",
+      "category": "agent-marketplace",
+      "operator": "brick.blue (anonymous operator)",
+      "url": "https://brick.blue",
+      "protocols": [
+        "mcp",
+        "a2a",
+        "web"
+      ],
+      "ua": "brick\\.?blue",
+      "clientNames": [
+        "brickbluebot"
+      ],
+      "seen": "lists without asking; calls up to 3 tools with empty arguments; invented A2A methods; A2A SendMessage asking the operator to claim the listing (USDC on Base)"
+    },
+    {
+      "id": "agent-collector",
+      "name": "agent-collector",
+      "category": "agent-marketplace",
+      "protocols": [
+        "mcp",
+        "a2a"
+      ],
+      "ua": "^agent-collector/",
+      "clientNames": [
+        "agent-collector"
+      ],
+      "seen": "card, GetTask, SendMessage \"what can you help with?\"; UA stresses no payment is made"
+    },
+    {
+      "id": "signpost",
+      "name": "Signpost",
+      "category": "agent-runtime",
+      "url": "https://signpost.public-agents.ai",
+      "protocols": [
+        "a2a"
+      ],
+      "ua": "^Signpost/",
+      "seen": "autonomous agent: card + message/send"
+    },
+    {
+      "id": "coda-agent-runtime",
+      "name": "coda-agent-runtime",
+      "category": "agent-runtime",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^coda-agent-runtime",
+      "clientNames": [
+        "coda-agent-runtime"
+      ],
+      "seen": "initialize only, from several AWS IPs"
+    },
+    {
+      "id": "tacuri",
+      "name": "Tacuri AI",
+      "category": "agent-runtime",
+      "url": "https://tacuri.ai",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^Tacuri AI",
+      "clientNames": [
+        "tacuri-ai"
+      ],
+      "seen": "initialize"
+    },
+    {
+      "id": "hans",
+      "name": "HANS",
+      "category": "agent-runtime",
+      "protocols": [
+        "mcp"
+      ],
+      "clientNames": [
+        "hans"
+      ],
+      "seen": "initialize (2025-03-26 and 2025-06-18), node UA"
+    },
+    {
+      "id": "quire",
+      "name": "quire",
+      "category": "agent-runtime",
+      "protocols": [
+        "mcp"
+      ],
+      "clientNames": [
+        "quire"
+      ],
+      "seen": "initialize, tools/list (Deno on Render)"
+    },
+    {
+      "id": "ibl-ai",
+      "name": "ibl.ai",
+      "category": "agent-runtime",
+      "url": "https://ibl.ai",
+      "protocols": [
+        "mcp"
+      ],
+      "clientNames": [
+        "ibl.ai"
+      ],
+      "seen": "initialize"
+    },
+    {
+      "id": "mieru-crew",
+      "name": "mieru crew connector",
+      "category": "agent-runtime",
+      "protocols": [
+        "mcp"
+      ],
+      "clientNames": [
+        "mieru-crew-connector"
+      ],
+      "seen": "initialize, tools/list"
+    },
+    {
+      "id": "khu-sift-mcp2",
+      "name": "mcp2-research (KHU SIFT Lab)",
+      "category": "research",
+      "operator": "Kyung Hee University",
+      "url": "https://github.com/dosixxx",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^mcp2-research/",
+      "seen": "server/discover, tools/list"
+    },
+    {
+      "id": "gptbot",
+      "name": "GPTBot",
+      "category": "ai-crawler",
+      "operator": "OpenAI",
+      "url": "https://openai.com/gptbot",
+      "protocols": [
+        "web"
+      ],
+      "ua": "GPTBot/",
+      "seen": "web pages"
+    },
+    {
+      "id": "claudebot",
+      "name": "ClaudeBot",
+      "category": "ai-crawler",
+      "operator": "Anthropic",
+      "protocols": [
+        "web"
+      ],
+      "ua": "ClaudeBot/",
+      "seen": "web pages"
+    },
+    {
+      "id": "leakix",
+      "name": "LeakIX l9scan",
+      "category": "security-scanner",
+      "url": "https://leakix.net",
+      "protocols": [
+        "web"
+      ],
+      "ua": "l9scan/",
+      "seen": "dozens of exposed-file paths (.env, .git, configs)"
+    },
+    {
+      "id": "censys",
+      "name": "Censys",
+      "category": "security-scanner",
+      "url": "https://about.censys.io",
+      "protocols": [
+        "web"
+      ],
+      "ua": "CensysInspect/",
+      "seen": "root and favicon"
+    },
+    {
+      "id": "recordedfuture",
+      "name": "Recorded Future",
+      "category": "security-scanner",
+      "protocols": [
+        "web"
+      ],
+      "ua": "RecordedFuture",
+      "seen": "global inventory crawl"
+    },
+    {
+      "id": "certstream",
+      "name": "certstream alive collector",
+      "category": "security-scanner",
+      "url": "https://certstream.calidog.io",
+      "protocols": [
+        "web"
+      ],
+      "ua": "certstream",
+      "seen": "visits new hostnames from CT logs"
+    },
+    {
+      "id": "monitord",
+      "name": "monitord-discovery",
+      "category": "security-scanner",
+      "protocols": [
+        "web"
+      ],
+      "ua": "^monitord-discovery/",
+      "seen": "well-known paths"
+    },
+    {
+      "id": "gtm-engine",
+      "name": "gtm-engine",
+      "category": "commercial-crawler",
+      "protocols": [
+        "web"
+      ],
+      "ua": "^gtm-engine/",
+      "seen": "/contact, /about, /impressum: contact enrichment"
+    },
+    {
+      "id": "sarnai-sales",
+      "name": "sarnai-sales",
+      "category": "commercial-crawler",
+      "url": "https://sarnai.dev",
+      "protocols": [
+        "web",
+        "mcp"
+      ],
+      "ua": "^sarnai-sales/",
+      "clientNames": [
+        "sarnai-sales"
+      ],
+      "seen": "sales prospecting; also MCP initialize"
+    },
+    {
+      "id": "prepulse",
+      "name": "prepulse acd-enricher",
+      "category": "commercial-crawler",
+      "url": "https://prepulse.io",
+      "protocols": [
+        "web"
+      ],
+      "ua": "acd-enricher",
+      "seen": "company enrichment"
+    },
+    {
+      "id": "forestengine",
+      "name": "ForestEngine",
+      "category": "commercial-crawler",
+      "url": "https://forestengine.net",
+      "protocols": [
+        "web"
+      ],
+      "ua": "ForestEngine/",
+      "seen": "web pages"
+    },
+    {
+      "id": "apcosys",
+      "name": "ApcosysBot",
+      "category": "commercial-crawler",
+      "url": "https://apcosys.net",
+      "protocols": [
+        "web"
+      ],
+      "ua": "^ApcosysBot/",
+      "seen": "web pages"
+    },
+    {
+      "id": "node",
+      "name": "Node.js (fetch/undici)",
+      "category": "generic-client",
+      "protocols": [
+        "mcp",
+        "web"
+      ],
+      "ua": "^(node|undici)$",
+      "seen": "many different MCP clients"
+    },
+    {
+      "id": "python-http",
+      "name": "Python HTTP library",
+      "category": "generic-client",
+      "protocols": [
+        "mcp",
+        "web"
+      ],
+      "ua": "^python-(httpx2?|requests)/",
+      "seen": "MCP clients and probes"
+    },
+    {
+      "id": "go-http",
+      "name": "Go net/http",
+      "category": "generic-client",
+      "protocols": [
+        "mcp",
+        "web"
+      ],
+      "ua": "^Go-http-client/",
+      "seen": "probes"
+    },
+    {
+      "id": "deno-bun",
+      "name": "Deno / Bun",
+      "category": "generic-client",
+      "protocols": [
+        "mcp",
+        "web"
+      ],
+      "ua": "^(Deno|Bun)/",
+      "seen": "MCP clients on edge runtimes"
+    },
+    {
+      "id": "ai-sdk",
+      "name": "Vercel AI SDK",
+      "category": "generic-client",
+      "protocols": [
+        "mcp"
+      ],
+      "ua": "^ai-sdk/",
+      "seen": "MCP client"
+    },
+    {
+      "id": "curl-axios",
+      "name": "curl / axios / Guzzle",
+      "category": "generic-client",
+      "protocols": [
+        "web",
+        "mcp"
+      ],
+      "ua": "^(curl|axios|GuzzleHttp)/",
+      "seen": "manual or scripted requests"
+    }
+  ]
+}
