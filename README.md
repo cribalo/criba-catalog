@@ -12,7 +12,7 @@ this catalog is for.
 
 ## What is in it
 
-[`catalog.json`](catalog.json): catalog version `2026-11-08`, 79 entries.
+[`catalog.json`](catalog.json): catalog version `2026-11-11`, 79 entries.
 
 | Category | Entries | What they are |
 |---|---|---|
